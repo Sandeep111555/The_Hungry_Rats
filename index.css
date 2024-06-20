@@ -1,0 +1,108 @@
+/*
+Normal native css
+scss
+component librabies - Material UI, Base Ui, Ant, Chakra
+Styled Components
+
+Tailwind CSS Framework
+    -Css on the go(in the same file)
+    -reusability
+    -less bundle size
+    -Flexible UI (customization)
+
+*/
+
+/* 
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.header .title{
+    border: 1px solid black;
+}
+.nav-items ul{
+    list-style-type: none;
+    margin:10px;
+    display: flex;
+}
+.nav-items li{
+    margin: 10px;
+}
+.nav-items button{
+    margin-top:10px;
+    background-color: #4B6AE4;
+    border:none;
+    color:white;
+}
+.image{
+    width:100px;
+}
+.card{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    height:400px;
+}
+.card img{
+    width:100%;
+    height:200px;
+}
+.restraunt-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuisines{
+    word-wrap: break-word;
+}
+.shimmerui{
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.menu img{
+    width:100%;
+}
+
+.login{
+    background-color: #F1F1F1;
+    border: 1px solid red;
+
+}
+.form{
+    background-color: white;
+    text-align: center;
+    border:1px solid black;
+}
+.errorclass{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: blanchedalmond;
+    flex-direction: column;
+    margin: 20px;
+}
+.errorimage{
+    background-color: antiquewhite;
+     width:800px;
+     height:700px;
+
+}
+.errormessage{
+    color: rgb(8, 84, 146);
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
