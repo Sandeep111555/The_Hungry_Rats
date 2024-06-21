@@ -42,13 +42,8 @@ const RestaurantMenu = () => {
 									className="w-80 h-72"
 									alt="Image not rendered"
 								></img>
-
-								<h2
-									align="center"
-									className="font-extrabold font-serif m-2 p-2 text-2xl"
-								>
-									{item?.card?.info?.name}
-								</h2>
+								<h3 className="font-bold text-xl p-3 m-3 capitalize font-serif truncate">
+									{item?.card?.info?.name}</h3>
 								<button onClick={()=>{handleAddCartItem(item)}} className="bg-green-500 w-24 h-10  font-bold border border-white hover:bg-green-700">Add Item</button>
 							</div>
 						);
